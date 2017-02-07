@@ -1,11 +1,6 @@
-  // lightest pink: #FEF1F3;
-  // middlest pink: #f9dbe0;
-  // darkest pink: #f2bcc5;
-
 .container-fluid {
   padding-left: 0;
-  padding-right: 0;
-}
+  padding-right: 0; }
 
 .package-description {
   color: #DB0014;
@@ -13,16 +8,14 @@
   margin: 0;
   padding: 0 25px;
   position: relative;
-  z-index: 5;
-}
+  z-index: 5; }
 
 .package-title {
   color: #DB0014;
   margin: 0;
   padding: 0 0 0 30px;
   position: relative;
-  z-index: 5;
-}
+  z-index: 5; }
 
 .package-tagline {
   color: #DB0014;
@@ -32,8 +25,7 @@
   padding: 0 30px;
   position: relative;
   text-transform: uppercase;
-  z-index: 5;
-}
+  z-index: 5; }
 
 .package-number {
   bottom: 10%;
@@ -45,14 +37,11 @@
   text-shadow: none;
   transform: scale(0.7);
   transition: 1s;
-  z-index: 4;
-}
+  z-index: 4; }
 
 .package-number.active {
   text-shadow: 0px 0px 50px rgba(219, 0, 20, 0.5);
-  transform: scale(1);
-}
-
+  transform: scale(1); }
 
 .packages-slider {
   align-items: center;
@@ -60,13 +49,11 @@
   overflow: scroll;
   position: relative;
   white-space: nowrap;
-  z-index: 0;
-}
+  z-index: 0; }
 
 .packages-slider-wrapper {
   background: #FEF1F3;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
 .our-packages-button {
   background: transparent;
@@ -79,25 +66,23 @@
   padding: 10px;
   position: relative;
   width: 300px;
-  z-index: 2;
-}
+  z-index: 2; }
 
 .package {
   background: #FEF1F3;
   display: inline-block;
   position: relative;
   white-space: pre-wrap;
-  z-index: 0;
-}
+  z-index: 0; }
 
 .vertical-top {
   background: red;
   height: 500px;
-  width: 1000px;
-}
+  width: 1000px; }
 
 .vertical-bottom {
   background: red;
   height: 500px;
-  width: 1000px;
-}
+  width: 1000px; }
+
+/*# sourceMappingURL=style.css.map */

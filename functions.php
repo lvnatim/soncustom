@@ -114,7 +114,7 @@ function register_custom_clients_and_taxonomies(){
 function asset_pipeline(){
   wp_enqueue_style('bootstrap', get_template_directory_uri() . '/dist/bootstrap/css/bootstrap.css');
   wp_enqueue_style('style', get_stylesheet_uri());
-  wp_register_script('index', get_template_directory_uri() . '/dist/js/index.js', array('jquery'));
+  wp_register_script('index', get_template_directory_uri() . '/dist/js/index.js', array('jquery'), null, true);
   wp_enqueue_script('index');
 }
 
