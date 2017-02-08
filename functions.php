@@ -1,7 +1,6 @@
 <?php
 
 function register_custom_clients_and_taxonomies(){
-
   $labels = array(
     'name'          =>  'Packages',
     'singular_name' =>  'Package',
@@ -108,6 +107,8 @@ function register_custom_clients_and_taxonomies(){
   );
 
   register_taxonomy( 'services', array( 'studies' ), $args );
+
+  add_theme_support( 'post-thumbnails' );
 
 }
 

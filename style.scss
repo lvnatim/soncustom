@@ -1,0 +1,447 @@
+/*
+Theme Name: Social or Nothing
+Author: Tim Lu
+Version: 1.0;
+*/
+
+$red: #E11F27;
+$title-font: "Knockout 47 A", "Knockout 47 B";
+
+*{
+  color: white;
+  font-family: Nimbus-sans, sans-serif;
+}
+
+a {
+  color: white;
+}
+
+a:active,
+a:hover {
+  color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
+h1{
+  font-family: $title-font;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+h1 > small{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+p{
+  line-height: 1.3;
+}
+
+p.title{
+  font-size: 18px;
+}
+
+p.quote{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+p.statistic{
+  background: $red;
+  margin: 20px 0px 10px 0px;
+  padding: 15px;
+}
+
+#animated-banner{
+  overflow:hidden;
+  margin: 0 -15px;
+  padding: 0 15px;
+  position: relative;
+}
+
+#animated-banner video{
+  position: absolute;
+  left: -60%;
+  width: 190%;
+  top: -190%;
+}
+
+#animated-banner h2{
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: -16px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+}
+
+#animated-banner .see-through-text{
+  margin: -25px -55px -17px -70px;
+  position: relative;
+}
+
+#animated-banner .box-shadow{
+  position: absolute;
+  top:0;
+  bottom:-20px;
+  left:0;
+  right:0;
+  -webkit-box-shadow: inset 0px 5px 30px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 5px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 5px 30px -5px rgba(0,0,0,0.75);
+}
+
+#blog-teaser{
+  padding-top: 30px;
+}
+
+.button{
+  border: 2px solid white;
+  color: white;
+  display: inline-block;
+  margin: 15px 0;
+  padding: 8px 0;
+  text-align: center;
+  width: 100%;
+}
+
+#call-to-action{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#call-to-action a{
+  padding: 12px 60px;
+  width: auto;
+}
+
+#call-to-action b{
+  margin-top: 15px;
+}
+
+.contact-container{
+  padding: 15px 0;
+  text-align: center;
+}
+
+.contact-container a{
+  display: block;
+  padding-bottom: 5px;
+}
+
+.credit-container{
+  padding: 0px 0px 15px 0px;
+  text-align: center;
+}
+
+.credit-container a{
+  text-decoration: underline;
+}
+
+.emblem-container{
+  padding: 15px 0 30px 0;
+  text-align: center;
+}
+
+.emblem-container > .img-responsive{
+  display: inline-block;
+  width: 35px;
+}
+
+#footer{
+  background: $red;
+  margin: 0 -15px;
+  padding: 0 15px;
+}
+
+.home-page-section{
+  background-color: $red;
+  background-position: center;
+  background-size: cover;
+  margin: 0 -15px;
+  padding: 45px 0 30px 0;
+}
+
+.home-page-section.white-background{
+  background-color: white;
+}
+
+.home-page-section.white-background *{
+  color: red;
+}
+
+.icon {
+  display: inline-block;
+  height: 25px;
+}
+
+.icons-footer-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 60px;
+}
+
+.icons-footer-container .icon{
+  height: 20px;
+}
+
+#landing h1 {
+  max-width: 65%;
+  position: relative;
+  z-index: 1;
+}
+
+#landing .text-container{
+  padding-top: 30px;
+}
+
+.landing-image-container{
+  position: absolute;
+  right: 15px;
+  top: -15px;
+  width: 40%;
+  -webkit-box-shadow: 0px 0px 45px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 45px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.75);
+}
+
+.logo-container {
+  align-items: center;
+  display: flex;
+  width: 50%;
+}
+
+#mobile-menu{
+  align-items: center;
+  background-color: $red;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 40px 15px;
+}
+
+#mobile-menu > #hamburger {
+  display:inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 21px;
+  width: 21px;
+}
+
+#mobile-menu > #hamburger > span {
+  background: white;
+  height: 3px;
+  width: 100%;
+}
+
+#newsletter-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#newsletter-container input{
+  background: $red;
+  border: 0;
+  border-bottom: 1px solid white;
+  text-align: center;
+  width: 100%;
+}
+
+#newsletter-container > p {
+  padding-bottom: 5px;
+}
+
+#newsletter-container .submit{
+  position: absolute;
+  right: 0;
+  padding: 0;
+  top: 0;
+}
+
+#newsletter-container .input-container{
+  position: relative;
+  width: 100%;
+}
+
+.separator {
+  background: white;
+  display: block;
+  height: 3px;
+  width: 40%;
+}
+
+.slider{
+  overflow: scroll;
+  padding: 0 22.5px;
+  white-space: nowrap;
+}
+
+.slider br {
+  display: none !important;
+}
+
+.slider::-webkit-scrollbar{
+  display: none;
+}
+
+.slide{
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 5px;
+  width: calc(100% - 10px);
+}
+
+.slider-text-container{
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+
+.text-container{
+  padding: 0 15px;
+}
+
+
+
+/* FACEBOOK STUFF */
+.fts-simple-fb-wrapper{
+  background: #EFEFEF;
+}
+.fts-jal-fb-header,
+.fts-jal-fb-user-thumb,
+.fts-jal-fb-user-name,
+.fts-jal-fb-post-time,{
+  display: none !important;
+  margin: 0 !important;
+}
+.fts-jal-fb-link-wrap,
+.fts-jal-fb-header a, 
+.fts-jal-single-fb-post a {
+  margin-top: 0;
+}
+.fts-likes-shares-etc-wrap a {
+  padding: 10px 5px;
+}
+.fts-likes-shares-etc-wrap a:after{
+  content: "";
+  position: absolute;
+}
+.fts-jal-single-fb-post{
+  padding: 0 !important;
+}
+.fts-jal-fb-message{
+  color: #666666;
+  line-height: 1.1;
+  margin-top: -5px;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+.fts-jal-fb-top-wrap{
+  margin-bottom: 0;
+}
+.fts-jal-fb-right-wrap{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.fts-jal-fb-see-more{
+  color: #CCCCCC;
+  text-align: left;
+}
+.fts-jal-fb-see-more i{
+  color: #CCCCCC;
+}
+.fts-jal-fb-message{
+  padding: 10px;
+}
+.fts-jal-fb-message a {
+  color: #666666;
+}
+
+/* TWITTER */
+
+#twitter-feed-pivotandpilot{
+  width: 100%;
+}
+
+.fts-tweeter-wrap{
+  background-color: #EFEFEF;
+}
+
+.fts-tweeter-wrap .tweeter-info{
+  overflow: hidden;
+  padding: 0;
+}
+
+.tweeter-info .fts-right{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 !important;
+  white-space: pre-wrap;
+}
+
+.tweeter-info .fts-twitter-image,
+.tweeter-info .fts-right .fts-uppercase,
+.tweeter-info .time{
+  display: none;
+}
+
+.fts-tweeter-wrap .tweeter-info img {
+  border-radius: 0;
+  margin: 0 !important;
+}
+
+.fts-twitter-text{
+  color: #666666;
+  line-height: 1.1;
+  padding: 10px;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+.fts-twitter-text a{
+  color: #666666;
+}
+
+.fts-twitter-reply-wrap{
+  margin: 0;
+  padding: 10px 5px;
+}
+
+.fts-tweet-reply-left{
+  display:none;
+}
+.fts-tweet-others-right{
+  margin-left: 5px;
+}
+
+.fts-tweeter-wrap a{
+  margin-left: 0;
+}
+
+.fts-twitter-retweet,
+.fts-twitter-favorites{
+  color: #CCCCCC;
+  font-size: 12px !important;
+}
+
+.fts-twitter-retweet:before{
+  font-size: 12px !important;
+}
+
+#sb_instagram{
+  white-space: pre-wrap;
+}
