@@ -30,7 +30,7 @@ $posts_array = get_posts( $args ); ?>
         <div class="packages-slider" id="packages-container">
           <?php foreach($posts_array as $post):?>
           <div class="package">
-            <p class="package-number <?php /*echo $post_counter == 1 ? 'active' : ''*/?>"><?php echo $post_counter; ?></p>
+            <p class="package-number <?php /* echo $post_counter == 1 ? 'active' : '' */?>"><?php echo $post_counter; ?></p>
             <h3 class="package-title"><?php echo $post->post_title; ?></h3>
             <h1 class="package-tagline"><?php echo $post->post_excerpt; ?></h1>
             <p class="package-description"><?php echo $post->post_content; ?></p>
