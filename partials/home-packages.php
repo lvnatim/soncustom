@@ -24,8 +24,6 @@ $posts_array = get_posts( $args ); ?>
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12">
-      <div class="vertical-top">
-      </div>
       <div class="packages-slider-wrapper">
         <div class="packages-slider" id="packages-container">
           <?php foreach($posts_array as $post):?>
@@ -39,8 +37,6 @@ $posts_array = get_posts( $args ); ?>
           <?php endforeach ?>
         </div>
         <button class="our-packages-button">Our Packages.</button>
-      </div>
-      <div class="vertical-bottom">
       </div>
     </div>
   </div>
