@@ -8,7 +8,9 @@
       <video autoplay>
           <source src="<?php echo get_template_directory_uri() . '/dist/video/ink.mp4' ?>" type='video/mp4' />
       </video>
+      <div class="see-through-border-left"></div>
       <img class="see-through-text" src="<?php echo get_template_directory_uri() . '/dist/img/background_footer.svg' ?>">
+      <div class="see-through-border-right"></div>
       <h2>MATTERS</h2>
       <div class="box-shadow"></div>
     </div>
@@ -24,7 +26,7 @@
       <a href=""><img class="img-responsive icon" src="<?php echo get_template_directory_uri() . '/dist/icons/instagram.svg' ?>"/></a>
       <a href=""><img class="img-responsive icon" src="<?php echo get_template_directory_uri() . '/dist/icons/twitter.svg' ?>"/></a>
       <a href=""><img class="img-responsive icon" src="<?php echo get_template_directory_uri() . '/dist/icons/linkedin.svg' ?>"/></a>
-      <a href=""><img class="img-responsive icon" src="<?php echo get_template_directory_uri() . '/dist/icons/facebook.svg' ?>"/></a>
+      <a href=""><img class="img-responsive icon" src="<?php echo get_template_directory_uri() . '/dist/icons/pinterest.svg' ?>"/></a>
     </div>
 
     <div id="newsletter-container">

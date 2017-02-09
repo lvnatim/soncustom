@@ -1,7 +1,7 @@
 <div class="container-fluid">
 <div class="row">
 <div class="col-xs-12">
-  <div class="home-page-section">
+  <div class="home-page-section social-slider-container">
     <div class="text-container">
       <p class="title">Follow Us</p>
     </div>
