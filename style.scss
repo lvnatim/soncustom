@@ -4,10 +4,12 @@ Author: Tim Lu
 Version: 1.0;
 */
 
-@import 'packages';
-
 $red: #E11F27;
 $title-font: "Knockout 47 A", "Knockout 47 B";
+
+@import 'home-packages';
+@import 'packages';
+
 
 *{
   color: white;
@@ -232,6 +234,12 @@ p.red{
   text-align: center;
 }
 
+.contact-container p {
+  @media (min-width: 1024px) {
+    max-width: none;
+  }
+}
+
 .contact-container a{
   display: block;
   padding-bottom: 5px;
@@ -241,6 +249,13 @@ p.red{
   padding: 0px 0px 15px 0px;
   text-align: center;
 }
+
+.credit-container p {
+  @media (min-width: 1024px) {
+      max-width: none;
+    }
+}
+
 
 .credit-container a{
   text-decoration: underline;
@@ -291,6 +306,10 @@ p.red{
   display: flex;
   justify-content: space-around;
   padding: 30px 60px;
+
+  @media (min-width: 1024px) {
+    padding: 0px 60px;
+  }
 }
 
 .icons-footer-container .icon{
@@ -361,6 +380,9 @@ p.red{
 
 #newsletter-container > p {
   padding-bottom: 5px;
+  @media (min-width: 1024px) {
+    max-width: none;
+  }
 }
 
 #newsletter-container .submit{
@@ -617,15 +639,13 @@ p.red{
     left: 40px;
     position: relative;
     text-align: left;
-    width: 200px;
   }
 
   #footer .credit-container {
-    bottom: -10px;
+    bottom: 20px;
     float: right;
-    width: 200px;
-    position: relative;
-    right: -160px;
+    position: absolute;
+    right: 48px;
     text-align: right;
   }
 
@@ -638,7 +658,7 @@ p.red{
 
   #footer .icons-footer-container{
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     left: -30px;
     width: 275px;
   }
@@ -652,7 +672,6 @@ p.red{
     float: right;
     position: relative;
     right: 40px;
-    width: 200px;
   }
 
   #footer .see-through-text {

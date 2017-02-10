@@ -20,7 +20,6 @@
       <a class="button">Contact Us</a>
     </div>
 
-
     <div class="icons-footer-container">
       <a href=""><img class="img-responsive icon" src="<?php echo get_template_directory_uri() . '/dist/icons/facebook.svg' ?>"/></a>
       <a href=""><img class="img-responsive icon" src="<?php echo get_template_directory_uri() . '/dist/icons/instagram.svg' ?>"/></a>
